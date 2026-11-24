@@ -1,0 +1,32 @@
+{
+  "object": "whatsapp_business_account",
+  "entry": [
+    {
+      "id": "WHATSAPP_BUSINESS_ACCOUNT_ID",
+      "changes": [
+        {
+          "field": "messages",
+          "value": {
+            "messaging_product": "whatsapp",
+            "metadata": {
+              "display_phone_number": "15550000000",
+              "phone_number_id": "PHONE_NUMBER_ID"
+            },
+            "contacts": [
+              { "profile": { "name": "Priya Sharma" }, "wa_id": "919876543210" }
+            ],
+            "messages": [
+              {
+                "from": "919876543210",
+                "id": "wamid.SAMPLE0001",
+                "timestamp": "1764000000",
+                "type": "text",
+                "text": { "body": "What is the price of A4 paper?" }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
